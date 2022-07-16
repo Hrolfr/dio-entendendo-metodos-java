@@ -8,10 +8,9 @@ public class atividade1 {
         conta();
         System.out.println("Hora");
         hora();
-       /* System.out.println("Atribuição");
-        atribuicao();
-        System.out.println("Precedência");
-        precedencia();*/
+        System.out.println("Empréstimo");
+        grana();
+
 
     }
         private static  void conta() {
@@ -27,7 +26,7 @@ public class atividade1 {
             int multiplicacao = a * b;
             System.out.println(multiplicacao);
 
-            float divisao = a / b;
+            int divisao = a / b;
             System.out.println(divisao);
         }
 
@@ -44,4 +43,14 @@ public class atividade1 {
          System.out.println("Boa noite! " + hora3);
      }
 
+     private static void  grana(){
+
+        double valorSolicitado = 30.000;
+        double taxa = 4.5;
+        int parcelas = 12;
+
+        double valorTotal = valorSolicitado * taxa / parcelas;
+         System.out.println(valorTotal);
+
+     }
 }
