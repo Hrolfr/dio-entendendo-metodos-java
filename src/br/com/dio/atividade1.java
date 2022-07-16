@@ -50,7 +50,7 @@ public class atividade1 {
         int parcelas = 12;
 
         double valorTotal = valorSolicitado * taxa / parcelas;
-         System.out.println(valorTotal);
+         System.out.println(valorTotal); //não ficou igual, mas usei o que sabia, funcionou e eu amei o resultado.Estou feliz.
 
      }
 }
